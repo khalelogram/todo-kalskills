@@ -5,6 +5,9 @@ var listItems=document.getElementsByTagName("li");
 
 
 
+function inputLength(){
+	return input.value.length;
+}
 
 
 function createListElement(){
