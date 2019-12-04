@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/tiltedpage-scroll.css">
+	<script>
+		  $(document).ready(function(){
+    $(".tilt-container").tiltedpage_scroll({
+      angle: 20
+    });
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+		<div>
+			<div class="tilt-container">
+				<section>
+					<img src="demo/demo1.jpg">
+				</section>
+				<section>
+					<img src="demo/demo2.jpg">
+				</section>
+				<section>
+					<img src="demo/demo3.jpg">
+				</section>
+				<section>
+					<img src="demo/demo4.jpg">
+				</section>
+				<section>
+					<img src="demo/demo1.jpg">
+				</section>
+			</div>
+		</div>
+	</center>
+	
+</body>
+</html> 
